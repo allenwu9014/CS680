@@ -1,0 +1,3 @@
+# A problem in hw02.xml is the "classpath" path. The codes in the slides shows the jar files have "org" prefixs.
+# However, I downloaded them from JUnit website without "org", which looks like "junit-jupiter-5.6.1.jar", 
+# "junit-platform-commons-1.6.1" and so on. Thus, I have to change their names to match the codes needed.  
