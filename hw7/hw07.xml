@@ -7,7 +7,7 @@
   on a shell.
 -->
 
-<project name="hw05" basedir="."  default="clean"> <!-- Change -->
+<project name="hw07" basedir="."  default="clean"> <!-- Change -->
 	<property environment="env"/>
 	<echo message="JUNIT: ${env.JUNIT}" />
 	<echo message="ANT_HOME: ${env.ANT_HOME}" />
@@ -48,7 +48,7 @@
 					<classpath refid="classpath"/>
 					<include name="edu/umb/cs680/hw07/FileSystem.java"/>   <!-- Change -->
 				</javac>
-				
+
 					<javac srcdir="${src}" destdir="${bin}" includeAntRuntime="no">
 						<classpath refid="classpath"/>
 						<include name="edu/umb/cs680/hw07/FSElement.java"/>   <!-- Change -->
