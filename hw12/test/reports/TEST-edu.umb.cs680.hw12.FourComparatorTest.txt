@@ -1,0 +1,6 @@
+Testcase: edu.umb.cs680.hw12.FourComparatorTest
+Test: getChildrenAlphabeticalTest() took 14 milli sec(s)
+Test: getChildrenElementKindBasedTest() took 1 milli sec(s)
+Test: getChildrenReverseAlphabeticalTest() took 1 milli sec(s)
+Test: getChildrenTimestampBasedTest() took 1 milli sec(s)
+Tests run: 4, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 27 milli sec(s)
