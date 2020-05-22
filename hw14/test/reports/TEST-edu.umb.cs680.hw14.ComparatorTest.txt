@@ -1,0 +1,17 @@
+Testcase: edu.umb.cs680.hw14.ComparatorTest
+Test: ParetoCompareTest() took 18 milli sec(s)
+Test: MileageCompareTest() took 1 milli sec(s)
+Test: PriceCompareTest() took 2 milli sec(s)
+Test: YearCompareTest() took 0 milli sec(s)
+Tests run: 4, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 28 milli sec(s)
+------------- Standard Output ---------------
+CLA250 :0
+CLA250 :0
+CLA250 :0
+E300 :1
+E300 :1
+E300 :2
+C200 :0
+C200 :0
+C200 :0
+------------- ---------------- ---------------
