@@ -24,7 +24,7 @@ public class APFS extends FileSystem {
         return instance;
     }
 
-    protected FSElement createDefaultRoot() {
+    public FSElement createDefaultRoot() {
 
 
         return new ApfsDirectory(null, "root", 0, dateTime);
