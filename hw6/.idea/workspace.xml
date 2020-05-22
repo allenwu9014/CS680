@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33a27210-6b4b-4eee-ba9d-22e3b323a8c2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bNCTQI2JLtpId5HYnlZIFcUssI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="JUnit.DVDPlayerTest">
+    <configuration name="DVDPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.umb.cs680.hw06.DVDPlayer" />
+      <module name="hw6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.umb.cs680.hw06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DVDPlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.umb.cs680.hw06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.umb.cs680.hw06" />
+      <option name="MAIN_CLASS_NAME" value="edu.umb.cs680.hw06.DVDPlayerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DVDPlayerTest" />
+        <item itemvalue="Application.DVDPlayer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33a27210-6b4b-4eee-ba9d-22e3b323a8c2" name="Default Changelist" comment="" />
+      <created>1588463171264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588463171264</updated>
+      <workItem from="1588463175375" duration="6142000" />
+      <workItem from="1589492091316" duration="51000" />
+      <workItem from="1590032415151" duration="9000" />
+      <workItem from="1590119862057" duration="54000" />
+      <workItem from="1590119923210" duration="5000" />
+      <workItem from="1590119952313" duration="68000" />
+      <workItem from="1590120039708" duration="908000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="854" y="275" key="#Project_Structure" timestamp="1590120134740">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state x="854" y="275" key="#Project_Structure/0.23.3440.1337@0.23.3440.1337" timestamp="1590120134740" />
+    <state x="107" y="239" width="2040" height="1073" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590120909081">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state x="107" y="239" width="2040" height="1073" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.3440.1337@0.23.3440.1337" timestamp="1590120909081" />
+    <state width="2198" height="361" key="GridCell.Tab.0.bottom" timestamp="1590120944972">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state width="2198" height="361" key="GridCell.Tab.0.bottom/0.23.3440.1337@0.23.3440.1337" timestamp="1590120944972" />
+    <state width="2198" height="361" key="GridCell.Tab.0.bottom/1067.1463.1366.1001/0.23.3440.1337@0.23.3440.1337" timestamp="1588469605103" />
+    <state width="2198" height="361" key="GridCell.Tab.0.center" timestamp="1590120944971">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state width="2198" height="361" key="GridCell.Tab.0.center/0.23.3440.1337@0.23.3440.1337" timestamp="1590120944971" />
+    <state width="2198" height="361" key="GridCell.Tab.0.center/1067.1463.1366.1001/0.23.3440.1337@0.23.3440.1337" timestamp="1588469605103" />
+    <state width="2198" height="361" key="GridCell.Tab.0.left" timestamp="1590120944971">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state width="2198" height="361" key="GridCell.Tab.0.left/0.23.3440.1337@0.23.3440.1337" timestamp="1590120944971" />
+    <state width="2198" height="361" key="GridCell.Tab.0.left/1067.1463.1366.1001/0.23.3440.1337@0.23.3440.1337" timestamp="1588469605103" />
+    <state width="2198" height="361" key="GridCell.Tab.0.right" timestamp="1590120944972">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state width="2198" height="361" key="GridCell.Tab.0.right/0.23.3440.1337@0.23.3440.1337" timestamp="1590120944972" />
+    <state width="2198" height="361" key="GridCell.Tab.0.right/1067.1463.1366.1001/0.23.3440.1337@0.23.3440.1337" timestamp="1588469605103" />
+    <state x="1914" y="278" key="SettingsEditor" timestamp="1590120331843">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state x="1914" y="278" key="SettingsEditor/0.23.3440.1337@0.23.3440.1337" timestamp="1590120331843" />
+    <state x="1914" y="278" key="SettingsEditor/1067.1463.1366.1001/0.23.3440.1337@0.23.3440.1337" timestamp="1588467744167" />
+    <state x="2230" y="651" key="refactoring.ChangeSignatureDialog" timestamp="1588466287761">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state x="2230" y="651" key="refactoring.ChangeSignatureDialog/1067.1463.1366.1001/0.23.3440.1337@0.23.3440.1337" timestamp="1588466287761" />
+  </component>
+</project>

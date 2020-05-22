@@ -32,19 +32,19 @@ public class DVDPlayer {
     }
     void open() {
 
-        System.out.println("Drawer open.");
+        System.out.print("Drawer open. ");
     }
     void close() {
 
-        System.out.println("Drawer close.");
+        System.out.print("Drawer close. ");
     }
     void play() {
 
-        System.out.println("Start playing.");
+        System.out.print("Start playing. ");
     }
     void stop() {
 
-        System.out.println("Stop playing.");
+        System.out.print("Stop playing. ");
     }
 
     public static void main(String[] args) {
