@@ -14,6 +14,9 @@
 
 	<property name="src" location="src" />
 	<property name="bin" location="bin" />
+	<property name="test.src" location="test/src" />
+	<property name="test.bin" location="test/bin" />
+	<property name="test.reports" location="test/reports" />
 
 
 	<path id="classpath">
@@ -27,7 +30,8 @@
 
 	<target name="init">
 		<mkdir dir="${bin}"/>
-
+		<mkdir dir="${test.bin}"/>
+		<mkdir dir="${test.reports}"/>
 	</target>
 
 	<target name="compile" depends="init">
@@ -73,7 +77,14 @@
 						<classpath refid="classpath"/>
 						<include name="edu/umb/cs680/hw09/APFS/ApfsDirectory.java"/>   <!-- Change -->
 					</javac>
-
+					<javac srcdir="${test.src}" destdir="${test.bin}" includeAntRuntime="no">
+						<classpath refid="classpath"/>
+						<include name="edu/umb/cs680/hw09/APFSTest.java"/>  <!-- Change -->
+					</javac>
+					<javac srcdir="${test.src}" destdir="${test.bin}" includeAntRuntime="no">
+						<classpath refid="classpath"/>
+						<include name="edu/umb/cs680/hw09/FATTest.java"/>  <!-- Change -->
+					</javac>
 	</target>
 <!--
 <target name="test" depends="compile">
@@ -87,9 +98,19 @@
 -->
 
 
+<target name="test" depends="compile">
+<junitlauncher printSummary="true">
+	<classpath refid="classpath" />
+	<testclasses outputdir="${test.reports}">
+	<fileset dir="${test.bin}">
+   <include name="edu/umb/cs680/hw09/*Test.class"/>  <!-- Change -->
+  </fileset>
+  <listener type="legacy-plain" sendSysOut="true"/>
+  </testclasses>
+</junitlauncher>
+</target>
 
-
-	<target name="clean" depends="compile">
+	<target name="clean" depends="test">
 		<delete includeemptydirs="true">
 	<fileset dir="${bin}/edu/umb/cs680/hw09" includes="**/*"/>  <!-- Change -->
 		 <!-- Change -->
